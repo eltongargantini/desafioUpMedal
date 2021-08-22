@@ -1,0 +1,522 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home1-desktop"
+    ]
+  },
+
+  "flex-layout.row#home1-desktop": {
+    "children": [
+      "tab-layout#menu"
+    ],
+    "props":{
+      "blockClass": "main-home",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    }
+  },
+
+  "tab-layout#menu": {
+   "children": [
+     "tab-list#menu",
+     "slider-layout-group#home",
+     "flex-layout.row#home2-desktop"
+   ],
+   "props": {
+     "blockClass": "home",
+     "defaultActiveTabId": "home1"
+   }
+ },
+
+ "tab-list#menu": {
+    "props":{
+      "blockClass":"tab-menu"
+
+    },
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3",
+      "tab-list.item#home4",
+      "tab-list.item#home5",
+      "tab-list.item#home6",
+      "tab-list.item#home7",
+      "tab-list.item#home8",
+      "tab-list.item#home9",
+      "tab-list.item#home10"
+    ]
+  },
+
+   "tab-list.item#home1": {
+     "props": {
+       "tabId": "promocao",
+       "label": "PROMOÇÃO",
+       "defaultActiveTab": true,
+       "blockClass":"menu-link"
+     }
+   },
+
+   "tab-list.item#home2": {
+     "props": {
+       "tabId": "corinthians",
+       "label": "CORINTHIANS",
+       "blockClass":"menu-link"
+     }
+   },
+
+   "tab-list.item#home3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "PALMEIRAS",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home4": {
+    "props": {
+      "tabId": "signos",
+      "label": "SIGNOS",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "DIVERTIDOS",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home6": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 MARAVILHAS",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home7": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "GUERREIROS",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home8": {
+    "props": {
+      "tabId": "album1",
+      "label": "ÁLBUM 1",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home9": {
+    "props": {
+      "tabId": "album2",
+      "label": "ÁLBUM 2",
+      "blockClass":"menu-link"
+    }
+  },
+
+  "tab-list.item#home10": {
+    "props": {
+      "tabId": "album3",
+      "label": "ÁLBUM 3",
+      "blockClass":"menu-link"
+    }
+  },
+
+   "flex-layout.row#home2-desktop":{
+    "props": {
+      "blockClass":"prod-content",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "tab-content#menu"      
+    ]
+   },
+
+  "tab-content#menu": {
+       "children": [
+         "tab-content.item#home1",
+         "tab-content.item#home2",
+         "tab-content.item#home3",
+         "tab-content.item#home4",
+         "tab-content.item#home5",
+         "tab-content.item#home6",
+         "tab-content.item#home7",
+         "tab-content.item#home8",
+         "tab-content.item#home9",
+         "tab-content.item#home10"
+       ],
+       "props":{
+          "blockClass":"prodContent"
+       }
+     },
+
+
+  "tab-content.item#home1": {
+    "children": [
+      "search-result-layout.customQuery#home1"
+    ],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+
+  "tab-content.item#home2": {
+    "children": [
+      "search-result-layout.customQuery#home2"
+    ],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+
+  "tab-content.item#home3": {
+    "children": [
+      "search-result-layout.customQuery#home3"
+    ],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+
+  "tab-content.item#home4": {
+    "children": [
+      "search-result-layout.customQuery#home4"
+    ],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+
+  "tab-content.item#home5": {
+    "children": [
+      "search-result-layout.customQuery#home5"
+    ],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+
+  "tab-content.item#home6": {
+    "children": [
+      "search-result-layout.customQuery#home6"
+    ],
+    "props": {
+      "tabId": "7maravilhas"
+    }
+  },
+
+  "tab-content.item#home7": {
+    "children": [
+      "search-result-layout.customQuery#home7"
+    ],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+
+  "tab-content.item#home8": {
+    "children": [
+      "search-result-layout.customQuery#home8"
+    ],
+    "props": {
+      "tabId": "album1"
+    }
+  },
+
+  "tab-content.item#home9": {
+    "children": [
+      "search-result-layout.customQuery#home9"
+    ],
+    "props": {
+      "tabId": "album2"
+    }
+  },
+
+  "tab-content.item#home10": {
+    "children": [
+      "search-result-layout.customQuery#home10"
+    ],
+    "props": {
+      "tabId": "album3"
+    }
+  },
+  
+  "search-result-layout.customQuery#home":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home1":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"UpMedal",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home2":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"Corinthians",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home3":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"Palmeiras",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home4":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"Signos",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home5":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"Divertidos",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home6":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"Maravilhas",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home7":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"Guerreiros",
+        "mapField":"ft"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home8":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"kit-upmedal/album1",
+        "mapField":"fq"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home9":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"kit-upmedal/album2",
+        "mapField":"fq"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.customQuery#home10":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "queryField":"kit-upmedal/album3",
+        "mapField":"fq"
+      }
+
+    },
+    "blocks":[
+      "search-result-layout.desktop#lp"
+    ]
+  },
+
+  "search-result-layout.desktop#lp":{
+    "children":["search-content#lp"],
+    "props":{
+      "preventRouteChange": true,
+      "itemsPerRow":"2"
+    }
+  },
+
+  "search-content#lp":{
+    "blocks":["gallery#lp","not-found"]
+  },
+
+  "gallery#lp":{
+    "props":{
+      "layouts":[
+        {
+          "name": "grid",
+          "component":"GridSummary",
+          "itemsPerRow":{
+            "desktop":2
+          }
+        },
+        {
+          "name":"list",
+          "component":"ListSummary",
+          "itemsPerRow":1
+        }
+      ],
+      "ListSummary":"product-summary.shelf#lp",
+      "GridSummary":"product-summary.shelf#lp"
+    }
+  },
+
+  "product-summary.shelf#lp":{
+    "children":[
+      "product-summary-name",
+      "product-images",
+      "product-summary-price",
+      "add-to-cart-button#lp"
+    ]
+  },
+
+  "add-to-cart-button#lp":{
+    "props": {
+      "onClickBehavior":"go-to-product-page",
+      "blockClass":"details-product",
+      "text": "Ver detalhes"
+    }
+  },
+ 
+  "slider-layout-group#home": {
+    "children": [
+      "slider-layout#banner-home",
+      "slider-layout#2"
+    ]
+  },
+
+  "slider-layout#banner-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    },
+    "children": ["image#banner1-home", "image#banner2-home"]
+  },
+
+  "image#banner1-home":{
+      "props":{
+        "src":"assets/BANNER-WOOD.png",
+        "width":"960px",
+        "blockClass":"img--banner"
+      }
+
+  },
+
+  "image#banner2-home":{
+    "props":{
+      "src":"assets/BANNER-GUERREIROS.png",
+      "width":"960px",
+      "blockClass":"img--banner"
+    }
+  },
+
+  "slider-layout#2":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "fullWidth":"false"
+    },
+    "children": ["rich-text#banner-home", "rich-text#banner-home"]
+  },
+
+  "rich-text#banner-home":{}  
+
+}

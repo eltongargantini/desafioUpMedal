@@ -1,0 +1,20 @@
+.flexRowContent--main-header {
+    background-color: #212222;
+    color: #ffffff;
+    
+  }
+
+.flexRowContent--main-home {
+    background-color: #303030;
+    color: #ffffff;
+    
+  }
+
+.flexRowContent--main-footer {
+    background-color: #424242;   
+}
+
+.flexRowContent--prod-content{
+  background-color:#303030;
+}
+

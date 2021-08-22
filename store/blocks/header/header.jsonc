@@ -1,0 +1,111 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+
+  "header.full":{
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#header1-desktop"
+    ]
+  },
+
+  "flex-layout.row#header1-desktop":{
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",      
+      "flex-layout.col#search-bar",      
+      "flex-layout.col#favorite",
+      "flex-layout.col#minicart"
+    ]
+  },
+
+  "flex-layout.col#logo-desktop":{
+    "props":{
+      "width":"20%",
+      "horizontalAlign":"left",
+      "verticalAlign":"bottom"
+    },
+    "children":[
+      "logo#desktop"
+    ]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
+      "width": "150px",
+      "verticalAlign": "center",
+      "horizontalAlign":"left"
+    }
+  },
+
+  "flex-layout.col#search-bar":{
+    "props":{
+      "width":"50%",
+      "horizontalAlign":"left",
+      "verticalAlign":"bottom"
+    },
+
+    "children":[
+      "search-bar"
+    ]
+  },
+
+  "search-bar":{
+    
+  },  
+
+  "flex-layout.col#favorite":{
+    "props":{
+      "width":"15%",
+      "horizontalAlign":"left",
+      "verticalAlign":"bottom"
+    }
+  },
+
+  "flex-layout.col#minicart":{
+    "props":{
+      "width":"15%",
+      "verticalAlign":"bottom"
+    },
+    "children":[
+      "minicart"
+    ]
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray",
+      "width":"100px",
+      "horizontalAlign":"left"
+    }
+  }
+     
+
+}

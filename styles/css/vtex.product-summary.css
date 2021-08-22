@@ -1,0 +1,12 @@
+.nameContainer, .imageContainer, .priceContainer, .buyButtonContainer {
+    background-color: #424242;
+    align-items: center;
+}
+
+.productBrand{
+    color:#ffff
+}
+
+.buyButtonText{
+    color: #424242;
+}

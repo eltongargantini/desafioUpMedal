@@ -1,0 +1,33 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "rich-text#test"
+    ],
+    "props":{
+      "blockClass":"main-footer",
+      "fullWidth":"true",
+      "horizontalAlign":"center",
+      "verticalAlign":"center"
+    }
+  },
+  
+  "rich-text#test":{
+    "props":{
+      "text": "teste"
+    }
+    
+  }
+}
